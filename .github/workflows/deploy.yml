@@ -8,7 +8,7 @@ on:
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout source
         uses: actions/checkout@v3
@@ -32,3 +32,6 @@ jobs:
           publish_dir: ./_site
           publish_branch: gh-pages
           force_orphan: true
+env:
+  GH_TOKEN: ${{ secrets.GH_TOKEN }}
+  ALL_CHANGED_FILES: README.md
