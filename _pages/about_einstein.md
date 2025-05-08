@@ -24,8 +24,8 @@ This site is my digital space — where I document my journey, projects, and tho
 
 ### 🔗 Connect With Me
 
-- [GitHub](https://github.com/rohxander)  
-- [LinkedIn](https://linkedin.com/in/YOUR-LINKEDIN)  
+- [GitHub](https://github.com/rohxander)
+- [LinkedIn](https://linkedin.com/in/YOUR-LINKEDIN)
 - [Email](mailto:your.email@example.com)
 
 ---
