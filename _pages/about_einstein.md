@@ -1,5 +1,36 @@
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+---
+layout: page
+title: About Me
+permalink: /about/
+---
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+<img src="/assets/img/prof_pic.jpg" alt="Rohit Prakash" width="200" style="border-radius: 50%; margin-bottom: 1rem;" />
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+**Rohit Prakash**  
+Germany | rohxander.github.io  
+_M.S. in Information & Communication Technology | FAU Erlangen_
+
+---
+
+Hi, I’m **Rohit Prakash** — an embedded systems enthusiast, deep tech explorer, and relentless learner.
+
+I’ve worked at Microchip Technologies where I contributed to robust system tools, and at Exasol AG where I built analytical dashboards that powered IT operations. My core interests lie at the intersection of **embedded software, AI, and system efficiency**.
+
+This site is my digital space — where I document my journey, projects, and thoughts on everything from **technology** to **culture and life lessons**.
+
+> "I believe technology should solve problems quietly, with elegance and purpose."
+
+---
+
+### 🔗 Connect With Me
+
+- [GitHub](https://github.com/rohxander)  
+- [LinkedIn](https://linkedin.com/in/YOUR-LINKEDIN)  
+- [Email](mailto:your.email@example.com)
+
+---
+
+You’ll also find my **blog**, my favorite **projects**, and eventually, my work on **open-source hardware/software systems** right here.
+
+Stay curious,
+**Rohit**
