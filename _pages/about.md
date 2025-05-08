@@ -29,7 +29,7 @@ latest_posts:
 
 Hi, I’m **Rohit Prakash** — a systems engineer, deep tech enthusiast, and someone who believes in learning by building.
 
-Currently pursuing my Master's in *Information and Communication Technology* at FAU Erlangen, I focus on embedded systems, AI, and systems-level engineering. I’ve worked on robust firmware infrastructure at **Microchip Technologies** and built business analytics tools at **Exasol AG**.
+Currently pursuing my Master's in _Information and Communication Technology_ at FAU Erlangen, I focus on embedded systems, AI, and systems-level engineering. I’ve worked on robust firmware infrastructure at **Microchip Technologies** and built business analytics tools at **Exasol AG**.
 
 This site is my personal corner of the web — where I document ideas, share technical explorations, reflect on culture, and post project insights that matter.
 
