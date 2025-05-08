@@ -27,7 +27,7 @@ latest_posts:
   limit: 3
 ---
 
-Hi, I’m **Rohit Prakash** — a systems engineer, deep tech enthusiast, and someone who believes in learning by building.
+Hello, I’m **Rohit Prakash** — a systems engineer, deep tech enthusiast, and someone who believes in learning by building.
 
 Currently pursuing my Master's in _Information and Communication Technology_ at FAU Erlangen, I focus on embedded systems, AI, and systems-level engineering. I’ve worked on robust firmware infrastructure at **Microchip Technologies** and built business analytics tools at **Exasol AG**.
 
