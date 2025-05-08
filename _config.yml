@@ -1,13 +1,17 @@
-title: Rohit Prakash
-first_name: Rohit
-middle_name: P.
-last_name: Prakash
+title: "Rohit Prakash"
+first_name: "Rohit"
+middle_name: "P."
+last_name: "Prakash"
+
 contact_note: >
   I'm open to collaborations, research ideas, and exciting embedded/AI opportunities.
+
 description: >
   A minimalist, elegant portfolio to showcase my journey as an embedded systems engineer, AI enthusiast, and persistent learner.
+
 footer_text: >
   Built with ❤️ using <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> & <a href="https://github.com/alshedivat/al-folio">Al-Folio</a>.
+
 keywords: rohit prakash, embedded, ai, systems engineer, portfolio
 lang: en
 icon: ⚡
@@ -24,10 +28,8 @@ search_enabled: true
 socials_in_search: true
 posts_in_search: true
 bib_search: false
-max_width: 930px
 
-repo_theme_light: default
-repo_theme_dark: dark
+max_width: 930px
 
 rss_icon: true
 
@@ -50,6 +52,7 @@ author:
 blog_name: "Tech & Thoughts"
 blog_description: "A mix of embedded systems, AI, culture, and personal insights."
 permalink: /blog/:year/:title/
+
 pagination:
   enabled: true
 
@@ -71,6 +74,7 @@ enable_navbar_social: true
 
 markdown: kramdown
 highlighter: rouge
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
