@@ -11,82 +11,32 @@
       value: English, Hindi
     - name: Location
       value: Erlangen, Bavaria, Germany
-    - name: Phone
-      value: +49 15560074054
     - name: Email
       value: rohitmanjappallil@gmail.com
-    - name: LinkedIn
-      value: [linkedin.com/in/rohitprakashmk](https://linkedin.com/in/rohitprakashmk)
 
 - title: Education
   type: time_table
   contents:
     - title: MSc in Information and Communication Technology
-      institution: Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany
-      year: Apr 2024 – Present
+      institution: FAU Erlangen-Nürnberg, Germany
+      year: 2024 – Present
     - title: BTech in Electrical and Electronics Engineering
       institution: College of Engineering Chengannur, India
       year: 2016 – 2020
-    - title: Certified Embedded Professional Training
-      institution: Emertxe Information Technologies, Bangalore
-      year: Sep 2021 – Mar 2022
 
 - title: Experience
   type: time_table
   contents:
-    - title: Working Student – IT Operations & Analytics
+    - title: Working Student – IT Operations
       institution: Exasol AG, Nuremberg, Germany
-      year: Jul 2024 – Present
-      description:
-        - Power BI dashboard development for IT insights.
-        - Web debugging and process automation.
-        - Salesforce support and troubleshooting.
-
-    - title: Engineer I – Applications (Wireless Solutions Group)
-      institution: Microchip Technology, Bangalore, India
-      year: Mar 2022 – Mar 2024
-      description:
-        - Developed Wi-Fi apps with enterprise security (TLS, TTLS, RADIUS).
-        - Created firmware validation tools (UART, ADC, SPI, etc.).
-        - Supported CE/FCC certifications and Class-B safety testing.
-        - Worked on QSPI/SQI memory optimization for embedded modules.
-
-    - title: Systems Engineer – Financial Services Digital
-      institution: Infosys Ltd., Bangalore, India
-      year: Jan 2021 – Mar 2022
-      description:
-        - API development and integration for HSBC.
-        - Frontend work with HTML, CSS, TypeScript.
-        - Tools used: MuleSoft, Spring, JIRA, Confluence.
-
-- title: Projects
-  type: time_table
-  contents:
-    - title: Wi-Fi Enterprise Security Mode
-      year: 2022
-      description: Developed secure Wi-Fi protocols (WPA2/WPA3) with TLS/TTLS and Linux RADIUS integration.
-    - title: Class-B Certification (IEC 60730)
-      year: 2022
-      description: Manual and automated validation for safety-critical embedded systems.
-    - title: UART Hardware Flow Control
-      year: 2023
-      description: Implemented high-speed UART for robust MCU communication.
-    - title: Python UART-based Alphabet Recognition
-      year: 2023
-      description: Python GUI to interpret QT8 touch inputs for character recognition.
+      year: 2024 – Present
+    - title: Application Engineer
+      institution: Microchip Technology, Bangalore
+      year: 2022 – 2024
 
 - title: Skills
   type: list
   contents:
-    - Embedded C, Python, Java (Basics), HTML, CSS, JavaScript
-    - Microcontrollers (PIC32, WFI32), Embedded Protocols (SPI, I2C, UART)
-    - Debugging Tools: Oscilloscope, Logic Analyzer, Power Supply
-    - Tools: GIT, Linux, Power BI, JIRA, Confluence
-    - Salesforce, MPLAB X IDE, Wi-Fi security protocols
-
-- title: Interests
-  type: list
-  contents:
-    - Computers, Mobile Technology, Embedded Systems, Wireless Communication, Semiconductors
-    - Aviation, Automobiles, Complex Engineering, Art, History
-    - Photography and Videography
+    - Embedded C, Python, Power BI
+    - Communication Protocols: UART, SPI, I2C
+    - Git, Linux, JIRA
