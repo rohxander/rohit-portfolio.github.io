@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>M.Sc. ICT @ FAU Erlangen</a>. Embedded Systems & AI Enthusiast. Dreamer & Doer.
+subtitle: <a href='#'>Driven by Curiosity. Defined by Clarity.</a>
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true
   more_info: >
     <p>+49 15560074054</p>
-    <p>Paul Gossen Strasse</p>
-    <p>Erlangen, Bavara 91052</p>
+    <p>Paul-Gossen-Straße</p>
+    <p>Erlangen, Bavaria 91052</p>
 
 selected_papers: false
 social: true
@@ -27,19 +27,12 @@ latest_posts:
   limit: 3
 ---
 
-I’m **Rohit Prakash**, a Master’s student in _Information and Communication Technology_ at FAU Erlangen, Germany. My passion lies at the intersection of **embedded systems, wireless communication, and artificial intelligence** — especially when applied to real-world problems.
+I’m **Rohit Prakash**, a passionate technologist and lifelong explorer of complexity.
 
-Previously, I worked as an **Application Engineer at Microchip Technology**, where I gained hands-on experience in embedded software and system-level debugging. I’m currently working at **Exasol AG** in Nuremberg as a **Working Student**, where I contribute to IT process optimization and analytics.
+Since childhood, I’ve been fascinated by how things work — not just in engineering or software, but in nature, design, architecture, and thought itself. I’m drawn to systems that demand depth, clarity, and reasoning. Whether it’s an elegant circuit, a layered philosophical idea, or the structural logic behind a Gothic cathedral — I value what challenges the mind and refines the craft.
 
-My current focus is:
+My background is grounded in information and communication technology, with hands-on experience in embedded systems, data platforms, and applied software. But what defines me isn’t a skillset — it’s an approach. I work with a low-input, high-output mindset. I don’t just complete tasks; I push for clarity, structure, and meaningful improvement.
 
-- Building a strong foundation in **low-level firmware development**
-- Exploring **LoRa-based IoT systems** for smart waste management (through my startup project)
-- Mastering tools like **C/C++, Jekyll, and Power BI**
-- Developing a resilient mindset to thrive in both tech and life
+I believe mediocrity is optional — and curiosity, when paired with discipline, can be a force of creation.
 
-> "The Pursuit of Happyness" is more than a movie to me — it’s my reminder to keep fighting, silently and persistently, no matter how hard it gets.
-
----
-
-Feel free to connect with me through the social icons below. I'm always open to collaboration, mentorship, or just a good conversation on technology, innovation, or growth.
+If you’re someone who values thoughtful execution, original thinking, and quiet momentum — we’ll probably get along well.
