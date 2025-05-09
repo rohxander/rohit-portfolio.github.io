@@ -88,39 +88,39 @@
   "skills": [
     {
       "name": "Programming Languages",
-      "keywords": ["Embedded C", "Python", "Java (Basic)", "Bash"]
+      "keywords": ["Embedded C", "Python", "Java (Basic)", "Bash", "Typescript"]
     },
     {
       "name": "Tools & Platforms",
-      "keywords": ["Git", "Linux", "Power BI", "Salesforce", "MPLAB X IDE"]
+      "keywords": ["Git", "Linux", "Power BI", "Salesforce", "MPLAB X IDE", "Wirreshark", "Visual Studio", "PyCharm", "Adobe Suite", "MS Office"]
     },
     {
       "name": "Protocols & Systems",
-      "keywords": ["UART", "SPI", "I2C", "QSPI", "WPA2/WPA3 Enterprise"]
+      "keywords": ["Wi-Fi", "RTOS", "PIC32 MCUs", "UART", "SPI", "I2C", "QSPI", "WPA2/WPA3 Enterprise"]
     },
     {
       "name": "Debugging Tools",
-      "keywords": ["Oscilloscope", "Logic Analyzer", "Serial Debuggers"]
+      "keywords": ["Oscilloscopes", "Logic Analyzers", "Serial Debuggers"]
     }
   ],
   "projects": [
     {
-      "name": "Wi-Fi Enterprise Security Stack",
+      "name": "Wi-Fi Enterprise Security Mode",
       "summary": "Developed TLS/TTLS-based secure Wi-Fi protocols integrated with RADIUS for embedded platforms.",
       "startDate": "2023-01-01",
-      "url": ""
+      "url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/ReferenceManuals/60001244C.pdf"
     },
     {
       "name": "Class-B Certification Testing",
       "summary": "Automated testing and validation for IEC 60730 Class-B safety compliance in embedded MCUs.",
       "startDate": "2023-03-01",
-      "url": ""
+      "url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/ReferenceManuals/60001244C.pdf"
     },
     {
       "name": "UART Hardware Flow Control",
-      "summary": "Implemented robust UART high-speed communication with RTS/CTS support.",
+      "summary": "Implemented UART high-speed communication with RTS/CTS support.",
       "startDate": "2022-12-01",
-      "url": ""
+      "url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/ReferenceManuals/60001244C.pdf"
     },
     {
       "name": "Python QT8 Touch Recognizer",
