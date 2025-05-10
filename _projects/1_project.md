@@ -15,11 +15,12 @@ The application focused on testing UART interfaces at varying baud rates, under 
 **Objective**  
 To validate MCU UART hardware flow control (RTS/CTS) across edge-case timing scenarios, and establish internal tooling for product demos and certification readiness.
 
-**My Role**  
-- Wrote firmware-level test application using MPLAB Harmony drivers  
-- Configured and tested hardware UART on WFI32 and PIC32 platforms  
-- Used oscilloscopes and logic analyzers to monitor RTS/CTS signal integrity  
-- Logged and resolved buffer overflow edge cases during full-duplex testing  
+**My Role**
+
+- Wrote firmware-level test application using MPLAB Harmony drivers
+- Configured and tested hardware UART on WFI32 and PIC32 platforms
+- Used oscilloscopes and logic analyzers to monitor RTS/CTS signal integrity
+- Logged and resolved buffer overflow edge cases during full-duplex testing
 - Created documentation to assist internal teams with porting and reuse
 
 **Tools & Platforms**  
