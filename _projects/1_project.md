@@ -24,7 +24,7 @@ To validate MCU UART hardware flow control (RTS/CTS) across edge-case timing sce
 - Created documentation to assist internal teams with porting and reuse
 
 **Tools & Platforms**  
-PIC32, WFI32, MPLAB X IDE, MPLAB Harmony, Logic Analyzer, UART Analyzer
+PIC32, WFI32, MPLAB X IDE, MPLAB Harmony, Salea Logic Analyzer, Digital Oscilloscopes
 
 <!--
 You may want to embed links to code or design docs here later
@@ -35,19 +35,19 @@ You may want to embed links to code or design docs here later
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/uart_signal.jpg" title="RTS/CTS waveform at 921600 baud" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/WFI32E02.png" title="WFI32 Development Board was used for UART testing" class="img-fluid rounded z-depth-1" %}
+  </div>
+    <!-- <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/oscilloscope_uart.jpg" title="Logic analyzer trace during stress test" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/pic32_board.jpg" title="PIC32 test setup" class="img-fluid rounded z-depth-1" %}
-    </div>
+    </div> -->
 </div>
 
-<div class="caption">
+<!-- <div class="caption">
     Left: RTS/CTS at high-speed; Middle: full-duplex trace on logic analyzer; Right: target board used for tests.
-</div>
+</div> -->
 
 <!--
 <div class="row justify-content-sm-center">
