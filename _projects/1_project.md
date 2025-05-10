@@ -4,7 +4,7 @@ title: High-Speed UART Flow Control Application
 description: Firmware-level test application to validate UART communication under high-speed conditions.
 img: assets/img/uart flow control.png
 importance: 1
-category: work
+category: Industrial
 related_publications: false
 ---
 
