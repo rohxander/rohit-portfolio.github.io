@@ -406,8 +406,8 @@ ninja.data = [{
           description: "Firmware-level test application to validate UART communication under high-speed conditions.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
+            },},{id: "projects-project-2",
+          title: 'project 2',
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
