@@ -7,7 +7,7 @@ subtitle: <a href='#'>Driven by Curiosity. Defined by Clarity.</a>
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true
+  image_circular: false
   more_info: >
     <p>+49 15560074054</p>
     <p>Paul-Gossen-Straße</p>
