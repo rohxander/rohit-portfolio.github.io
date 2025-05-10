@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "A portfolio of engineering, experimentation, and expression.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -406,6 +406,11 @@ ninja.data = [{
           description: "Firmware-level test application to validate UART communication under high-speed conditions.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
+            },},{id: "projects-project-2",
+          title: 'project 2',
+          description: "another project with an image 🎉",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_project/";
             },},{id: "projects-project-2",
           title: 'project 2',
           description: "another project with an image 🎉",
