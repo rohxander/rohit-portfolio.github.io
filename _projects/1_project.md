@@ -24,30 +24,32 @@ To validate MCU UART hardware flow control (RTS/CTS) across edge-case timing sce
 - Created documentation to assist internal teams with porting and reuse
 
 **Tools & Platforms**  
-PIC32, WFI32, MPLAB X IDE, MPLAB Harmony, Salea Logic Analyzer, Digital Oscilloscopes
+PIC32, WFI32, MPLAB X IDE, MPLAB Harmony, Saleae Logic Analyzer, Digital Oscilloscopes
 
-<!--
-You may want to embed links to code or design docs here later
+<!-- Optional: Embed link to source code if available in the future
 <a href="https://github.com/rohxander/uart-tool" class="btn btn-sm z-depth-0" target="_blank">
   <i class="fas fa-code"></i> View Source
 </a>
 -->
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/WFI32E02.png" title="WFI32 Development Board was used for UART testing" class="img-fluid rounded z-depth-1" %}
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/WFI32E02.png" title="WFI32E02 Development Board" class="img-fluid rounded z-depth-1" %}
   </div>
-    <!-- <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/oscilloscope_uart.jpg" title="Logic analyzer trace during stress test" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/pic32_board.jpg" title="PIC32 test setup" class="img-fluid rounded z-depth-1" %}
-    </div> -->
+  <!-- 
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/oscilloscope_uart.jpg" title="Logic analyzer trace during stress test" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/pic32_board.jpg" title="PIC32 test setup" class="img-fluid rounded z-depth-1" %}
+  </div>
+  -->
 </div>
 
-<!-- <div class="caption">
-    Left: RTS/CTS at high-speed; Middle: full-duplex trace on logic analyzer; Right: target board used for tests.
-</div> -->
+<div class="caption">
+  Left: WFI32 Development Board used for UART testing
+  <!-- Middle: full-duplex trace on logic analyzer; Right: target board used for tests -->
+</div>
 
 <!--
 <div class="row justify-content-sm-center">
@@ -59,6 +61,6 @@ You may want to embed links to code or design docs here later
   </div>
 </div>
 <div class="caption">
-    (Optional future section showing test interface and firmware code layout)
+  (Optional future section showing test interface and firmware code layout)
 </div>
 -->
