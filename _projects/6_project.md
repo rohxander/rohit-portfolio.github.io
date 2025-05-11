@@ -57,11 +57,13 @@ When attempting to probe RTS/CTS lines with the logic analyzer, unexpected groun
 The test routines were handed over to the **Module Validation Team** for further environmental and stress testing, including evaluation across temperature variations and extended runtime scenarios.
 
 ---
+
 ### Reference
 
 - [PIC32 Family Reference Manual - Section 21: Universal Asynchronous Receiver Transmitter (UART)](https://ww1.microchip.com/downloads/en/DeviceDoc/61107G.pdf)
 
 ---
+
 ### Tools & Platforms
 
 PIC32, WFI32E02  
