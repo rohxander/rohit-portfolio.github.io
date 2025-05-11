@@ -1,80 +1,78 @@
 ---
 layout: page
-title: project 2
-description: another project with an image 🎉
-img: assets/img/6.jpg
-importance: 4
-category: Academic
+title: Wi-Fi Enterprise Security Stack
+description: Implemented WPA2/WPA3 enterprise protocols using TLS/TTLS with FreeRADIUS integration on WFI32 modules.
+img: assets/img/tls_1_3.png
+importance: 2
+category: Industrial
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+At Microchip Technology, I was responsible for validating **hardware UART flow control (RTS/CTS)** for high-speed embedded communication. The target was to test flow control performance across multiple configurations and baud rates, with reliable operation expected up to 10 Mbps. During testing, I was able to verify functionality up to **25 Mbps**.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+---
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+### Project Objective
+
+- Confirm RTS/CTS-based UART communication stability under high-speed, full-duplex conditions
+- Evaluate communication behavior on dedicated UART pins vs PPS-configured pins
+- Provide structured test applications to support validation at scale
+
+---
+
+### Development Process
+
+Initial testing was conducted using **Tera Term**, but its fixed baud rate settings limited practical testing. I moved to **PuTTY**, which supported higher speeds, but started failing consistently beyond 2.5 Mbps. This is when I introduced the **Saleae Logic Analyzer** for more precise signal monitoring, and later used **digital oscilloscopes** for final frequency measurements.
+
+To test CTS input handling, I initially grounded the CTS line on the MCU and monitored UART behavior. This confirmed that the MCU paused and resumed transmission based on CTS state — validating the handshake logic.
+
+To enable bidirectional, high-speed flow control testing, I programmed **two WFI32E02 boards**:
+
+- One board acted as the initiator and echo responder
+- The other purely as a repeater
+- Test characters (`'U'`, binary `01010101`) were used for clean waveform visibility and timing analysis
+
+This setup eliminated the PC as a bottleneck and allowed direct MCU-to-MCU validation.
+
+---
+
+### Testing Configurations & Observations
+
+- Baud rates tested from 9600 bps up to 25 Mbps
+- Clock settings were adjusted to support different speed targets
+- UART control registers were reconfigured for high-speed mode and flow control enablement
+- Both **dedicated UART pins** and **PPS(Peripheral Pin Select)-configured pins** were tested
+
+  - As expected, **PPS pins supported speeds up to 5 Mbps** (per device spec)
+  - **Dedicated pins maintained full signal stability at 25 Mbps**
+
+  [Note : The Peripheral Pin Select (PPS) feature allows a design to choose the pins used by many of the devices digital peripheral]
+
+When attempting to probe RTS/CTS lines with the logic analyzer, unexpected grounding issues affected readings. However, functionality was still verified through **manual wire disconnection tests**, where communication paused and resumed without data loss — confirming proper hardware handshake operation.
+
+---
+
+### Final Deliverables
+
+The test routines were handed over to the **Module Validation Team** for further environmental and stress testing, including evaluation across temperature variations and extended runtime scenarios.
+
+---
+
+### Tools & Platforms
+
+PIC32, WFI32E02  
+MPLAB X IDE, Harmony v3  
+PuTTY, Saleae Logic Analyzer  
+Digital Oscilloscopes, FTDI Cables
+
+---
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/WFI32E02.png" title="WFI32E02 Development Board" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
-```
 
-{% endraw %}
+<div class="caption">
+  WFI32E02 board used for UART flow control testing and full-duplex setup.
+</div>

@@ -1,9 +1,9 @@
 ---
 layout: page
-title: High-Speed UART Flow Control Application
-description: Validating RTS/CTS hardware flow control on PIC32 at speeds up to 25 Mbps.
-img: assets/img/uart_flow_control.png
-importance: 1
+title: TUV Certification & Module Validation
+description: Developed Certification apps with IPv6 support and parallel testing for UART, SPI, ADC, I2C, PWM, Wi-Fi, and Ethernet peripherals.certification on PIC32MZW1
+img: assets/img/certification.png
+importance: 5
 category: Industrial
 related_publications: false
 ---

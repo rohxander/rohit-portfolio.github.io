@@ -1,9 +1,9 @@
 ---
 layout: page
-title: High-Speed UART Flow Control Application
-description: Validating RTS/CTS hardware flow control on PIC32 at speeds up to 25 Mbps.
-img: assets/img/uart_flow_control.png
-importance: 1
+title: Class-B Functional Safety Certification
+description: Assisted in validating error-catch mechanisms for SRAM, FLASH, CPU, and I/O to support EN/IEC 60730 Class-B safety certification on PIC32MZW1
+img: assets/img/class_b_thumbnail.png
+importance: 4
 category: Industrial
 related_publications: false
 ---

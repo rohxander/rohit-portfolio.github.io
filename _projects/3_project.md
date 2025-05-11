@@ -1,9 +1,9 @@
 ---
 layout: page
-title: High-Speed UART Flow Control Application
-description: Validating RTS/CTS hardware flow control on PIC32 at speeds up to 25 Mbps.
-img: assets/img/uart_flow_control.png
-importance: 1
+title: QSPI Validation Application
+description: Integrated and validated QSPI/SQI interface on Microchip modules.
+img: assets/img/qspi.png
+importance: 3
 category: Industrial
 related_publications: false
 ---

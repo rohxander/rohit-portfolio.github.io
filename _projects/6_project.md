@@ -1,10 +1,10 @@
 ---
 layout: page
-title: High-Speed UART Flow Control Application
-description: Validating RTS/CTS hardware flow control on PIC32 at speeds up to 25 Mbps.
-img: assets/img/uart_flow_control.png
+title: Python UART-Based Alphabet Recognition
+description: Built a Python GUI to read QT8 touchpad input over UART and recognize alphabet characters from 5x5 touch matrices.
+img: assets/img/touch_recognition.png
 importance: 1
-category: Industrial
+category: Fun
 related_publications: false
 ---
 
