@@ -16,11 +16,11 @@ Testing true UART hardware flow control proved challenging with standard USB-to-
 
 ### 🛠️ My Role & Approach
 
-- Studied PIC32 UART modules in-depth using the reference manual and Harmony v3 framework  
-- Developed a test firmware application on **WFI32E02** and **PIC32** to evaluate high-speed full-duplex UART  
-- Identified the baud rate ceiling in Tera Term (~2.5 Mbps) and replaced it with a **Saleae Logic Analyzer** to monitor and verify RTS/CTS transitions at higher speeds  
-- Debugged scenarios like buffer overruns and misaligned handshaking under stress  
-- Created reusable documentation and setup guidelines for internal test teams  
+- Studied PIC32 UART modules in-depth using the reference manual and Harmony v3 framework
+- Developed a test firmware application on **WFI32E02** and **PIC32** to evaluate high-speed full-duplex UART
+- Identified the baud rate ceiling in Tera Term (~2.5 Mbps) and replaced it with a **Saleae Logic Analyzer** to monitor and verify RTS/CTS transitions at higher speeds
+- Debugged scenarios like buffer overruns and misaligned handshaking under stress
+- Created reusable documentation and setup guidelines for internal test teams
 
 ### ✅ Outcome
 
@@ -30,10 +30,12 @@ The application became part of Microchip’s internal firmware validation toolse
 
 PIC32, WFI32, MPLAB Harmony v3, MPLAB X IDE, Saleae Logic Analyzer, FTDI Cables, Tera Term
 
-**Reference**  
+**Reference**
+
 - [PIC32 Family Reference Manual – UART Module (Microchip)](https://ww1.microchip.com/downloads/en/DeviceDoc/61107G.pdf)
 
 {% comment %}
+
 <!-- Optional: Embed link to source code if available in the future -->
 <a href="https://github.com/rohxander/uart-tool" class="btn btn-sm z-depth-0" target="_blank">
   <i class="fas fa-code"></i> View Source
@@ -60,6 +62,7 @@ PIC32, WFI32, MPLAB Harmony v3, MPLAB X IDE, Saleae Logic Analyzer, FTDI Cables,
 </div>
 
 {% comment %}
+
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
     {% include figure.liquid path="assets/img/code_sample.jpg" title="UART initialization snippet" class="img-fluid rounded z-depth-1" %}
