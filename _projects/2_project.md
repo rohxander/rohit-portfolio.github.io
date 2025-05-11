@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Wi-Fi Enterprise Security Stack
+title: Wi-Fi Enterprise Security Applicaiton
 description: Implemented WPA2/WPA3 enterprise protocols using TLS/TTLS with FreeRADIUS integration on WFI32 modules.
 img: assets/img/tls_1_3.png
 importance: 2
