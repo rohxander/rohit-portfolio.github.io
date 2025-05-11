@@ -2,29 +2,33 @@
 layout: page
 title: High-Speed UART Flow Control Application
 description: Firmware-level test application to validate UART communication under high-speed conditions.
-img: assets/img/uart flow control.png
+img: assets/img/uart_flow_control.png
 importance: 1
 category: Industrial
 related_publications: false
 ---
 
-As part of my role at Microchip Technology, I worked on developing and validating a UART-based communication tool designed to ensure robust high-speed data transfer using hardware flow control.
+As part of my role at Microchip Technology, I was responsible for developing a high-speed UART validation application to test **hardware UART flow control (RTS/CTS)**. The tool was designed to validate signal integrity and reliable communication at baud rates up to **10 Mbps**, with final tests achieving stable operation at **25 Mbps**.
 
-The application focused on testing UART interfaces at varying baud rates, under real-time operating conditions, while ensuring consistent buffer handling, no data loss, and clean signal behavior — especially at 460800 and 921600 bps.
+### 🔍 Problem
 
-**Objective**  
-To validate MCU UART hardware flow control (RTS/CTS) across edge-case timing scenarios, and establish internal tooling for product demos and certification readiness.
+Testing true UART hardware flow control proved challenging with standard USB-to-UART converters. Despite using **FTDI cables** with RTS/CTS support, the **PC’s CTS line remained low**, making the system behave like conventional UART without flow control. Even enabling hardware flow control within **Tera Term** (the initial terminal application used) had no effect — likely due to the abstraction layer introduced by the USB interface.
 
-**My Role**
+### 🛠️ My Role & Approach
 
-- Wrote firmware-level test application using MPLAB Harmony drivers
-- Configured and tested hardware UART on WFI32 and PIC32 platforms
-- Used oscilloscopes and logic analyzers to monitor RTS/CTS signal integrity
-- Logged and resolved buffer overflow edge cases during full-duplex testing
-- Created documentation to assist internal teams with porting and reuse
+- Studied PIC32 UART modules in-depth using the reference manual and Harmony v3 framework
+- Developed a test firmware application on **WFI32E02** and **PIC32** to evaluate high-speed full-duplex UART
+- Identified the baud rate ceiling in Tera Term (~2.5 Mbps) and replaced it with a **Saleae Logic Analyzer** to monitor and verify RTS/CTS transitions at higher speeds
+- Debugged scenarios like buffer overruns and misaligned handshaking under stress
+- Created reusable documentation and setup guidelines for internal test teams
 
-**Tools & Platforms**  
-PIC32, WFI32, MPLAB X IDE, MPLAB Harmony, Saleae Logic Analyzer, Digital Oscilloscopes
+### ✅ Outcome
+
+The application became part of Microchip’s internal firmware validation toolset and was used in product-level demos and performance evaluations.
+
+### 🔧 Tools & Platforms
+
+PIC32, WFI32, MPLAB Harmony v3, MPLAB X IDE, Saleae Logic Analyzer, FTDI Cables, Tera Term
 
 <!-- Optional: Embed link to source code if available in the future
 <a href="https://github.com/rohxander/uart-tool" class="btn btn-sm z-depth-0" target="_blank">
@@ -48,7 +52,7 @@ PIC32, WFI32, MPLAB X IDE, MPLAB Harmony, Saleae Logic Analyzer, Digital Oscillo
 
 <div class="caption">
   Left: WFI32 Development Board used for UART testing
-  <!-- Middle: full-duplex trace on logic analyzer; Right: target board used for tests -->
+  <!-- Middle: full-duplex trace on logic analyzer; Right: PIC32 test setup -->
 </div>
 
 <!--
@@ -61,6 +65,6 @@ PIC32, WFI32, MPLAB X IDE, MPLAB Harmony, Saleae Logic Analyzer, Digital Oscillo
   </div>
 </div>
 <div class="caption">
-  (Optional future section showing test interface and firmware code layout)
+  Optional: Future section showing firmware GUI or code layout
 </div>
 -->
