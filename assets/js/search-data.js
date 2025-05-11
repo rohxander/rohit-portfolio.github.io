@@ -403,19 +403,34 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-high-speed-uart-flow-control-application",
           title: 'High-Speed UART Flow Control Application',
-          description: "Firmware-level test application to validate UART communication under high-speed conditions.",
+          description: "Validating RTS/CTS hardware flow control on PIC32 at speeds up to 25 Mbps.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "another project with an image 🎉",
+            },},{id: "projects-wi-fi-enterprise-security-stack",
+          title: 'Wi-Fi Enterprise Security Stack',
+          description: "Implemented WPA2/WPA3 enterprise protocols using TLS/TTLS with FreeRADIUS integration on WFI32 modules.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "another project with an image 🎉",
+            },},{id: "projects-qspi-validation-application",
+          title: 'QSPI Validation Application',
+          description: "Integrated and validated QSPI/SQI interface on Microchip modules.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/3_project/";
+            },},{id: "projects-class-b-functional-safety-certification",
+          title: 'Class-B Functional Safety Certification',
+          description: "Assisted in validating error-catch mechanisms for SRAM, FLASH, CPU, and I/O to support EN/IEC 60730 Class-B safety certification on PIC32MZW1",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_project/";
+            },},{id: "projects-tuv-certification-amp-module-validation",
+          title: 'TUV Certification &amp;amp; Module Validation',
+          description: "Developed Certification apps with IPv6 support and parallel testing for UART, SPI, ADC, I2C, PWM, Wi-Fi, and Ethernet peripherals.certification on PIC32MZW1",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_project/";
+            },},{id: "projects-python-uart-based-alphabet-recognition",
+          title: 'Python UART-Based Alphabet Recognition',
+          description: "Built a Python GUI to read QT8 touchpad input over UART and recognize alphabet characters from 5x5 touch matrices.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_project/";
             },},{
         id: 'social-email',
         title: 'email',
